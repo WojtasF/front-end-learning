@@ -1,0 +1,29 @@
+/*Type Selectors*/
+
+li { /*1 Power LvL*/
+
+}
+
+li a {
+
+}
+       /*2 Power LvL*/
+li + a{
+
+}
+
+/*Class, Attribute, and Pseudo-Class Selectors*/
+
+.hello { /*10x bigger Power LvL*/
+
+}
+
+input[type="text"]{ /*Even bigger Power LvL*/
+
+}
+
+/*ID Selectors*/
+
+#hello{ /*What are you inSayan?*/
+
+}
