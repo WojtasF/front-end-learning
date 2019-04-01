@@ -1,0 +1,14 @@
+/* selector - all instances of a given element */
+h1 {
+	color: blue;
+}
+
+/* ID selector - selects an element with given ID, only one per page! */
+#special {
+	border: 5px solid green;
+}
+
+/* Class selector - selects all elements with a given class*/
+.completed {
+	background: orange;
+}
