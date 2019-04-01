@@ -1,0 +1,43 @@
+/*Element - all instances of a given element*/
+li {
+
+}
+/*class - selects all elements with a given class*/
+.hello {
+
+}
+/*id - selects an element with given ID, only one per page!*/
+#name {
+
+}
+
+/*Star - every single element on the site*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector - every element (a) nested in other element (li)*/
+
+li a {
+	color: red;
+}
+
+/*Adjacent Selector - every element (ul) after other element (h4)*/
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+
+/*Attribute Selector - selects elements based on attributes*/
+
+a[href="http://www.google.com"] {
+	background: blue;
+}
+
+/*nth of type - selects nth element of type*/
+
+li:nth-of-type(odd){
+	background: purple;
+}
