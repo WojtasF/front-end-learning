@@ -1,0 +1,13 @@
+h1 {
+	color: red;
+	border: 5px solid blue;
+}
+
+h4 {
+	background: rgb(255,100,20);
+}
+
+body {
+	background: url(https://www.babybedding.com/images/fabric/gray-woodgrain-fabric_large.jpg);
+	background-size: cover;
+}
