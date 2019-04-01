@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>Register</h1>
+	<form>
+	<!-- First and last name -->
+	<label for="first name">First Name: </label>
+	<input id="first name" type="text" placeholder="Andrzej" name="firstName" required>
+	<label for="last name">Last Name: </label>
+	<input id="last name" type="text" placeholder="Duda" name="lastName" required>
+
+	<br>
+	<!-- gender -->
+	<label for="male">Male</label>
+	<input name="gender" id="male" type="radio" value="male">
+	<label for="female">Female</label>
+	<input name="gender" id="female" type="radio" value="female">
+	<label for="other">Other</label>
+	<input name="gender" id="other" type="radio" value="other">
+	
+	<br>
+	<!-- e-mail and password -->
+	<label for="email">Email: </label>
+	<input id="email" type="email" placeholder="your e-mail" name="email" required>
+	<label for="password">Password: </label>
+	<input id="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+
+	<br>
+	<!-- birthday -->
+	<label>Birthday:
+	<select name="month">
+		<option>Month</option>
+		<option>Styczeń</option>
+		<option>Luty</option>
+		<option>Marzec</option>
+	</select>
+	<select name="day">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+	<select name="year">
+		<option>Year</option>
+		<option>1998</option>
+		<option>666</option>
+		<option>420</option>
+	</select>
+	</label>
+
+	<br>
+	<!-- terms and conditions accept -->
+	<label for="terms">I agree to the terms and coditions </label>
+	<input type="checkbox" id="terms" name="terms" value="accepted">
+
+	<br>
+	<!-- submit button -->
+	<button>Submit</button>
+	</label>
+	</form>
+</body>
+</html>
