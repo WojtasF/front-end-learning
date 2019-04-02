@@ -1,0 +1,39 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: url(http://i0.kym-cdn.com/photos/images/original/001/169/901/b4a.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar {
+	font-family: 'Indie Flower', cursive;
+	font-size: 15px;
+}
+
+.content {
+	padding-top: 20%;
+	margin: 0 auto;
+	text-align: center;
+	min-width: 40%;
+	width: 40%;
+}
+
+h1 {
+	font-family: 'Titan One', cursive;
+	text-shadow: 2px 2px gray;
+	font-size: 70px;
+}
+
+h3 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 2px solid white;
+	text-shadow: 2px 2px gray;
+	color: white;
+}
