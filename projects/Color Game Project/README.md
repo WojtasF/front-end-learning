@@ -1,0 +1,1 @@
+Guess color based on random generated RGB code
