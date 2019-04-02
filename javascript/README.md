@@ -1,0 +1,1 @@
+First scripts I've wrote in Vanilla JavaScript!
